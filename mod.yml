@@ -1,0 +1,33 @@
+title: PC - Oathkeeper
+originalAuthor: Cagaroo
+description: A Keyblade imbued with light power. Replaces Knockout Punch for Sora and Riku.
+dependencies: 
+assets:
+- name: chara/wep/w_ri16/mig/0/bin/w_ri160.pmo
+  method: copy
+  source:
+  - name: chara/wep/w_ri16/mig/0/bin/w_ri160.pmo
+- name: chara/wep/w_ri16/mig/1/bin/w_ri161.pmo
+  method: copy
+  source:
+  - name: chara/wep/w_ri16/mig/1/bin/w_ri161.pmo
+- name: chara/wep/w_ri16/mig/s/bin/w_ri16s.pmo
+  method: copy
+  source:
+  - name: chara/wep/w_ri16/mig/s/bin/w_ri16s.pmo
+- name: chara/wep/w_so16/mig/0/bin/w_so160.pmo
+  method: copy
+  source:
+  - name: chara/wep/w_so16/mig/0/bin/w_so160.pmo
+- name: chara/wep/w_so16/mig/1/bin/w_so161.pmo
+  method: copy
+  source:
+  - name: chara/wep/w_so16/mig/1/bin/w_so161.pmo
+- name: chara/wep/w_so16/mig/s/bin/w_so16s.pmo
+  method: copy
+  source:
+  - name: chara/wep/w_so16/mig/s/bin/w_so16s.pmo
+- name: icon.png
+  method: copy
+  source:
+  - name: icon.png
