@@ -17,3 +17,19 @@ assets:
   method: copy
   source:
   - name: 3ds/chara_wep/135-w_ri161.pmo
+- name: remastered/item/jp/bin/it020c.ctt/it020c.dds
+  multi:
+  - name: remastered/item/jp/bin/it020cl.ctt/it020cl.dds
+  - name: remastered/item/jp/bin/it021c.ctt/it021c.dds
+  - name: remastered/item/jp/bin/it021cl.ctt/it021cl.dds
+  method: copy
+  source:
+  - name: 3ds/hd/it020c.png
+- name: remastered/item/jp/bin/it020ct.ctt/it020ct.dds
+  multi:
+  - name: remastered/item/jp/bin/it020ctl.ctt/it020ctl.dds
+  - name: remastered/item/jp/bin/it021ct.ctt/it021ct.dds
+  - name: remastered/item/jp/bin/it021ctl.ctt/it021ctl.dds
+  method: copy
+  source:
+  - name: 3ds/hd/it020ct.png
