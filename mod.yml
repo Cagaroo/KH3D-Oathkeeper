@@ -1,35 +1,36 @@
+---
 title: PC - Oathkeeper
 originalAuthor: Cagaroo
 description: A Keyblade imbued with light power. Replaces Knockout Punch for Sora and Riku.
-dependencies: 
+dependencies: null
 assets:
-- name: chara/wep/w_ri16/mig/0/bin/w_ri160.pmo
-  multi:
-  - name: chara/wep/w_so16/mig/0/bin/w_so160.pmo
-  - name: chara/wep/w_so16/mig/0/bin/w_so16s.pmo
-  - name: chara/wep/w_ri16/mig/0/bin/w_ri16s.pmo
-  method: copy
-  source:
-  - name: 3ds/chara_wep/22-w_ri160.pmo
-- name: chara/wep/w_ri16/mig/1/bin/w_ri161.pmo
-  multi:
-  - name: chara/wep/w_so16/mig/1/bin/w_so161.pmo
-  method: copy
-  source:
-  - name: 3ds/chara_wep/135-w_ri161.pmo
-- name: remastered/item/jp/bin/it020c.ctt/it020c.dds
-  multi:
-  - name: remastered/item/jp/bin/it020cl.ctt/it020cl.dds
-  - name: remastered/item/jp/bin/it021c.ctt/it021c.dds
-  - name: remastered/item/jp/bin/it021cl.ctt/it021cl.dds
-  method: copy
-  source:
-  - name: 3ds/hd/it020c.png
-- name: remastered/item/jp/bin/it020ct.ctt/it020ct.dds
-  multi:
-  - name: remastered/item/jp/bin/it020ctl.ctt/it020ctl.dds
-  - name: remastered/item/jp/bin/it021ct.ctt/it021ct.dds
-  - name: remastered/item/jp/bin/it021ctl.ctt/it021ctl.dds
-  method: copy
-  source:
-  - name: 3ds/hd/it020ct.png
+  - name: chara/wep/w_ri16/mig/0/bin/w_ri160.pmo
+    multi:
+      - name: chara/wep/w_so16/mig/0/bin/w_so160.pmo
+      - name: chara/wep/w_so16/mig/0/bin/w_so16s.pmo
+      - name: chara/wep/w_ri16/mig/0/bin/w_ri16s.pmo
+    method: copy
+    source:
+      - name: 3ds/chara_wep/22-w_ri160.pmo
+  - name: chara/wep/w_ri16/mig/1/bin/w_ri161.pmo
+    multi:
+      - name: chara/wep/w_so16/mig/1/bin/w_so161.pmo
+    method: copy
+    source:
+      - name: 3ds/chara_wep/135-w_ri161.pmo
+  - name: remastered/item/jp/bin/it020c.ctt/it020c.dds
+    multi:
+      - name: remastered/item/jp/bin/it020cl.ctt/it020cl.dds
+      - name: remastered/item/jp/bin/it021c.ctt/it021c.dds
+      - name: remastered/item/jp/bin/it021cl.ctt/it021cl.dds
+    method: copy
+    source:
+      - name: 3ds/hd/it020c.png
+  - name: remastered/item/jp/bin/it020ct.ctt/it020ct.dds
+    multi:
+      - name: remastered/item/jp/bin/it020ctl.ctt/it020ctl.dds
+      - name: remastered/item/jp/bin/it021ct.ctt/it021ct.dds
+      - name: remastered/item/jp/bin/it021ctl.ctt/it021ctl.dds
+    method: copy
+    source:
+      - name: 3ds/hd/it020ct.png
