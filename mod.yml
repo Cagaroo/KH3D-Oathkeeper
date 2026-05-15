@@ -25,7 +25,7 @@ assets:
       - name: remastered/item/jp/bin/it021cl.ctt/it021cl.dds
     method: copy
     source:
-      - name: 3ds/item/it020c.png
+      - name: remastered/item/it020c.png
   - name: remastered/item/jp/bin/it020ct.ctt/it020ct.dds
     multi:
       - name: remastered/item/jp/bin/it020ctl.ctt/it020ctl.dds
@@ -33,4 +33,4 @@ assets:
       - name: remastered/item/jp/bin/it021ctl.ctt/it021ctl.dds
     method: copy
     source:
-      - name: 3ds/item/it020ct.png
+      - name: remastered/item/it020ct.png
